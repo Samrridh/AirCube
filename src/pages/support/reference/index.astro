@@ -3,7 +3,7 @@ import BaseLayout from "@layout/BaseLayout.astro";
 
 import { getCollection } from "astro:content";
 
-const reference = (await getCollection("reference")).toSorted(
+const reference = (await getCollection("reference")).slice().sort(
   (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
 );
 
