@@ -26,13 +26,13 @@ const defaultSchema: WithContext<Thing> = {
   url: Astro.url.href,
   name: "Air Cube",
   description:
-    "Unlock powerful data insights with Air Cube's advanced analytics suite for Excel. Visualize, analyze, and make data-driven decisions in minutes with seamless Excel integration, AI-powered analysis, and predictive forecasting models.",
+    "We aim to capture smartly outpacing conventional and inefficient technologies",
   isPartOf: {
     "@type": "WebSite",
     url: `${Astro.site}`,
     name: "Air Cube",
     description:
-      "Air Cube Analytics Inc. provides advanced analytics for Excel to help businesses unlock actionable insights quickly with no coding required.",
+      "Air Cube aims to capture smartly outpacing conventional and inefficient technologies",
   },
 };
 ---
@@ -44,23 +44,23 @@ const defaultSchema: WithContext<Thing> = {
       charset="utf-8"
       title={seo?.title ?? "Air Cube"}
       description={seo?.description ??
-        "Unlock powerful data insights with Air Cube's advanced analytics suite for Excel. Visualize, analyze, and make data-driven decisions in minutes with seamless Excel integration, AI-powered analysis, and predictive forecasting models."}
+        "We aim to capture smartly outpacing conventional and inefficient technologies"}
       openGraph={{
         basic: {
-          title: "Air Cube - Unlock Insights from Your Excel Data",
+          title: "Air Cube - Capture Carbon. Smartly.",
           type: "website",
           image: socialImage,
         },
         optional: {
           description:
-            "Transform your Excel workspace with Air Cube's powerful analytics suite. Get insights, predictive models, and visualizations in minutes with no coding required.",
+            "We aim to capture smartly outpacing conventional and inefficient technologies",
         },
       }}
       twitter={{
         card: "summary_large_image",
-        title: "Air Cube - Unlock Insights from Your Excel Data",
+        title: "Air Cube - Capture Carbon. Smartly",
         description:
-          "Transform your Excel workspace with Air Cube's powerful analytics suite. Visualize and analyze data quickly with no coding required.",
+          "We aim to capture smartly outpacing conventional and inefficient technologies",
         image: socialImage,
         imageAlt: "Air Cube Logo.",
       }}

@@ -9,20 +9,24 @@ import { navigationLinks } from "@utils/navigation";
 const currentPath = Astro.url.pathname;
 
 // Call-to-action configuration for the primary button
-const primaryCTA = { text: "Login", href: "https://github.com/mearashadowfax/DataNova" };
+const primaryCTA = { text: "Login", href: "../login" };
 ---
-
+<!-- bg-gray-500 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-80 border border-gray-100 -->
 <header
-  class="fixed start-1/2 top-5 z-50 mx-auto flex w-full max-w-sm -translate-x-1/2 transform flex-wrap rounded-2xl border-b border-slate-100 bg-white bg-linear-to-t/oklch from-teal-100 via-transparent to-white p-4 shadow-xs sm:max-w-xl md:max-w-4xl md:flex-nowrap md:justify-start lg:max-w-5xl xl:max-w-6xl xl:shadow-none xl:ring-teal-950/5 2xl:max-w-[81rem] 2xl:via-0%"
+  class="fixed start-1/2 top-5 z-50 mx-auto flex w-full max-w-sm -translate-x-1/2 transform flex-wrap rounded-2xl              rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10                      p-4 shadow-xs  sm:max-w-xl md:max-w-4xl md:flex-nowrap md:justify-start lg:max-w-5xl xl:max-w-6xl xl:shadow-none xl:ring-teal-950/5 2xl:max-w-[81rem] 2xl:via-0%"
 >
+<!-- <header
+  class="fixed start-1/2 top-5 z-50 mx-auto flex w-full max-w-sm -translate-x-1/2 transform flex-wrap rounded-2xl border-b border-slate-100 bg-white bg-linear-to-t/oklch from-teal-100 via-transparent to-white p-4 shadow-xs sm:max-w-xl md:max-w-4xl md:flex-nowrap md:justify-start lg:max-w-5xl xl:max-w-6xl xl:shadow-none xl:ring-teal-950/5 2xl:max-w-[81rem] 2xl:via-0%"
+> -->
   <nav
     class="relative mx-auto w-full px-4 py-2 sm:px-6 lg:px-8 xl:flex xl:max-w-7xl xl:items-center xl:justify-between xl:gap-3 2xl:max-w-[85rem]"
   >
+
     <div class="flex items-center justify-between gap-x-1">
       <a
         class="dm-sans flex-none text-2xl font-light text-slate-400 focus:opacity-80 focus:outline-hidden"
         href="/"
-        aria-label="DataNova Logo"
+        aria-label="Air Cube Logo"
         translate="no"
         >Air<span class="font-semibold text-teal-700">Cube</span></a
       >

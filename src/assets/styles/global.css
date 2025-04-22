@@ -7,7 +7,7 @@
 
 @theme {
   /* https://tailwindcss.com/docs/colors#customizing-your-colors */
-  --color-*: initial;
+  /* --color-*: initial; */
   --color-transparent: transparent;
   --color-current: currentColor;
   --color-black: #000;
