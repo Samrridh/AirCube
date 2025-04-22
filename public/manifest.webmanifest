@@ -1,6 +1,6 @@
 {
-  "short_name": "DataNova",
-  "name": "DataNova",
+  "short_name": "Air Cube",
+  "name": "Air Cube",
   "icons": [
     {
       "src": "./icon-192.png",
@@ -17,5 +17,5 @@
   "id": "/",
   "start_url": "/",
   "theme_color": "#fefefe",
-  "background_color": "#85c5c5"
+  "background_color": "#073763"
 }

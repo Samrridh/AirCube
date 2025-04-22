@@ -37,7 +37,7 @@ const defaultSchema: WithContext<Thing> = {
 };
 ---
 
-<html lang="en" class="scroll-pt-32">
+<html lang="en" class="scroll-pt-32 scroll-smooth">
   <head>
     {/* SEO Meta Tags */}
     <SEO
@@ -117,6 +117,7 @@ const defaultSchema: WithContext<Thing> = {
         ].forEach((link) => link.remove()),
       );
     </script>
+    <link rel="sitemap" href="/sitemap-index.xml" />
   </head>
   <body class="bg-off-white selection:bg-teal-400 selection:text-slate-700">
     <Navbar />

@@ -5,6 +5,8 @@ import react from "@astrojs/react";
 import markdoc from "@astrojs/markdoc";
 import svelte from "@astrojs/svelte";
 
+import sitemap from "@astrojs/sitemap";
+
 // https://astro.build/config
 export default defineConfig({
   // The `site` property specifies the base URL for your site.
@@ -15,11 +17,7 @@ export default defineConfig({
   experimental: {
     clientPrerender: true, // false maybe?
   },
-  integrations: [
-    react(),
-    markdoc(),
-    svelte(),
-  ],
+  integrations: [react(), markdoc(), svelte(), sitemap()],
   vite: {
     plugins: [tailwindcss()],
   },

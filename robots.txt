@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aircube.spacedust.in/sitemap-index.xml
