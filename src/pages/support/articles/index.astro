@@ -7,7 +7,7 @@ const articles = (await getCollection("articles")).toSorted(
   (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
 );
 
-const urlPath = Astro.url;
+// const urlPath = Astro.url;
 
 export const pageContent = {
   pageTitle: "Articles",
@@ -57,7 +57,7 @@ export const pageContent = {
           return (
             <a
               class={`card group ${borderClasses}`}
-              href={`${urlPath}/${item.id}`}
+              
             >
               <div class="mb-5">
                 <div class="mt-5">
@@ -79,3 +79,4 @@ export const pageContent = {
     </div>
   </section>
 </BaseLayout>
+<!-- href={`${urlPath}/${item.id}`} at line 60 -->
