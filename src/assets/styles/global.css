@@ -5,6 +5,8 @@
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   /* https://tailwindcss.com/docs/colors#customizing-your-colors */
   /* --color-*: initial; */
